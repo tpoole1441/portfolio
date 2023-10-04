@@ -1,7 +1,45 @@
-header {
-  background-color: #41B3A3;
-  color: #E8A87C
-  padding: 10px;
+header, footer {
+  background-color: #687864;
+  color: #F7F9FB;
+  padding: 20px;
   text-align: center;
 }
 
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 30px 50px 0px 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.face {
+  display: block;
+  width: 300px;
+  border-radius: 30px;
+  margin: 50px auto 50px auto;
+}
+
+section {
+  margin: 50px 10%;
+}
+
+header p {
+  padding: 0px 50px 30px 50px;
+}
+
+.solid-line {
+  height: 2px;
+  background-color: #31708E;
+  width: 100%;
+  margin: 50px 0;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #F7F9FB;
+}
