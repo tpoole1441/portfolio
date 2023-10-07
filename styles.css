@@ -1,12 +1,13 @@
-header, footer {
+header,
+footer {
   background-color: #687864;
-  color: #F7F9FB;
+  color: #f7f9fb;
   padding: 20px;
   text-align: center;
 }
 
 h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   padding: 30px 50px 0px 50px;
   font-size: 40px;
 }
@@ -23,7 +24,7 @@ h2 {
 }
 
 section {
-  margin: 50px 10%;
+  margin: 50px 25%;
 }
 
 h3 {
@@ -32,9 +33,16 @@ h3 {
 
 .solid-line {
   height: 2px;
-  background-color: #31708E;
+  background-color: #31708e;
   width: 100%;
   margin: 50px 0;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 30px 30px 30px;
 }
 
 p {
@@ -42,5 +50,5 @@ p {
 }
 
 body {
-  background-color: #F7F9FB;
+  background-color: #f7f9fb;
 }
